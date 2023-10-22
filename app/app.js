@@ -11,9 +11,8 @@ function initlisteners() {
         let ghost = $("#ghost").val();
         let fairy = $("#fairy").val();
         let dragon = $("#dragon").val();
-        let login = $("#login").val();
         console.log("inputs " + grass + " " + fire 
-        + " " + water + " " + normal + " " + electric + " " + fighting + " " + flying + " " + ghost + " " + fairy + " " + dragon + " " + login);
+        + " " + water + " " + normal + " " + electric + " " + fighting + " " + flying + " " + ghost + " " + fairy + " " + dragon);
     });
 
     $("#sub").click(function(e){

@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+
+  #app {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  form {
+    margin: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  input {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navHolder {
+    position: fixed;
+    left: 10px;
+  }
+
+  .links {
+    display: flex; 
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+    overflow: hidden;
+    margin-left: -10px;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: height 0.4s, opacity 0.2s ease-in;
+  }
+
+  .links.active {
+    height: 100vh;
+    opacity: 1;
+  }
+
+  .hero {
+    max-width: 100%; 
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+  }
+
+  .callout {
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  .tour-component2 {
+    height: 200px;
+    width: 981px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-holder {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.info-holder2 {
+  width: 90%;
+  height: 90%;
+}
+
+
+.promo2 {
+  max-width: 318px;
+  min-height: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: -43px auto 0 auto;
+}
+.isreal-pic {
+  background-image: url(../images/iupui.jpg);   
+  background-repeat: no-repeat;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  margin-bottom: 2px;
+  font-size: xx-large;
+}
+.about .about-header .border-bottom {
+  width: 210px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+.about .about-header p {
+  font-size: large;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes h1 {
+  margin-bottom: 2px;
+  font-size: xx-large;
+}
+.about .about-client-quotes .border-bottom {
+  width: 160px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+.about .about-client-quotes .border-bottom2 {
+  width: 110px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 280px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-image2 {
+  width: 400px;
+  height: 442px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image2 img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.about .about-client-quotes .client-box .client-quote span {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  font-size: small;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about .about-client-quotes .client-box .client-quote span a {
+  text-decoration: none;
+  color: white;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79ADDC;
+  font-size: large;
+}
+.about .about-client-quotes .client-box .form-area {
+  max-width: 118px;
+  min-height: 304px;
+}
+.about .about-client-quotes .client-box .form-area .form .two-input {
+  min-height: 60px;
+  width: 729px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .form-area .form .two-input .left {
+  width: 560px;
+  border-style: none;
+  background-color: #F5F5F5;
+  border-width: 2px;
+}
+.about .about-client-quotes .client-box .form-area .form .two-input2 {
+  min-height: 60px;
+  width: 729px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.about .about-client-quotes .client-box .form-area .form .two-input2 .left {
+  width: 560px;
+  height: 200px;
+  border-style: none;
+  background-color: #F5F5F5;
+  border-width: 2px;
+}
+.about .about-client-quotes .client-box .form-area .form span {
+  background-color: #79addc;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+}
+
+@media (max-width: 860px) {
+  .about .client-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .client-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+  @media screen and (max-width: 960px) {
+    .bars {
+        display: block;
+      }
+
+      .links {
+        height: 0;
+        opacity: 0;
+        flex-direction: column;
+      }
+  }
+
